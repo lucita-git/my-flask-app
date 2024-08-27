@@ -1,5 +1,6 @@
 # Usa un'immagine base di Python
-FROM pytorch/pytorch:latest
+FROM python:3.9-alpine
+#FROM pytorch/pytorch:latest
 #ARG REPO=964146288621.dkr.ecr.eu-west-1.amazonaws.com
 #FROM ${REPO}/python:3.9
 #FROM python:3.9-slim
