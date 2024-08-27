@@ -1,5 +1,6 @@
 # Usa un'immagine base di Python
-FROM python:3.9-slim
+ARG REPO=964146288621.dkr.ecr.eu-west-1.amazonaws.com
+FROM ${REPO}/python:3.9
 
 # Imposta la directory di lavoro all'interno del container
 WORKDIR /app
